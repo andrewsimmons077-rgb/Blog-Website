@@ -1,0 +1,106 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+body h1 {
+    padding-left: 1rem;
+}
+
+body input {
+    margin-left: 1rem;
+    width: 6rem;
+}
+
+body button {
+    margin-left: 1rem;
+    min-width: 6rem;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: lightblue;
+}
+
+.footer p {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.header {
+    width: 100%;
+    margin: 0;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+
+.header header {
+    width: 100%;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25%;
+    width: 50%;
+    padding: 1rem;
+}
+
+.directory {
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75vh;
+}
+
+.blog-content h1,
+.blog-content p {
+    margin-bottom: 1rem;
+}
+
+#welcome-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1rem;
+}
+
+.text-input {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.text-body {
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+.post-container .btn {
+    margin-left: 80%;
+}
+
+.post-container h1 {
+    margin-bottom: 1rem;
+}
